@@ -84,7 +84,7 @@ export function format(cb) {
 // Function to watch for changes in SCSS and JS files
 export function dev() {
     watch('src/styles/**/*.scss', css);
-    watch('src/TypeScript/**/*.ts', compileTs);
+    watch('src/scripts/**/*.ts', compileTs);
     watch('src/assets/images/**', crop);
 }
 

@@ -1,1 +1,1 @@
-"use strict";console.log("a");
+"use strict";const tasks=[];function createTask(s){tasks.push(s)}createTask("aa"),tasks.forEach(((s,a)=>{a++,console.log(`Tareas pendientes: ${a}) ${s}`)}));
