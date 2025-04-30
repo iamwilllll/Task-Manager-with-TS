@@ -393,5 +393,40 @@ img {
   padding: 5rem;
 }
 
+body {
+  padding: 2rem;
+}
+
+#task-board {
+  margin: 2rem 0;
+  border: solid black 0.1px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 1rem;
+  background-color: gainsboro;
+}
+.task p {
+  margin: 0;
+  padding: 1rem;
+}
+.task button {
+  margin: 0;
+  border-radius: 1rem;
+  background: none;
+  border: none;
+  transition: 0.2s;
+}
+.task button :hover {
+  cursor: pointer;
+}
+
 /* 
 *//*# sourceMappingURL=index.css.map */
